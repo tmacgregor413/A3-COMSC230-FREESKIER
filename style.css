@@ -1,0 +1,246 @@
+body
+{
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.button_1
+{
+    height: 38px;
+    background: #aed6f1;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark
+{
+    padding: 20px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'monospace';
+}
+
+header
+{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #aed6f1 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li
+{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+    float: left;
+}
+
+header #branding h1, h2
+{
+    margin: 0;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a
+{
+    color: #aed6f1;
+    font-weight: bold;
+}
+
+header a:hover, button
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+#showcase
+{
+    min-height: 400px;
+    background: url('../img/skier1.png') no-repeat 0 -150px;
+    width: 100%;
+    text-align: center;
+    color: #34495e;
+}
+
+/*Header text*/
+#showcase h1
+{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p
+{
+    font-size: 20px;
+}
+
+#newsletter
+{
+    padding: 5px;
+    color: #aed6f1;
+    background: #35424a;
+}
+
+#newsletter h1
+{
+    float: center;
+}
+
+#newsletter form
+{
+    float: center;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    text-align: left;
+}
+
+#boxes
+{
+    margin-top: 20px;
+    float: center;
+}
+
+#boxes .box
+{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+}
+
+#boxes .box img
+{
+    width: 500px;
+}
+
+aside#sidebar
+{
+    float: right;
+    width: 30%;
+    margin-top: .5%;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea
+{
+    width: auto;
+    padding: 5px;
+    height: auto;
+}
+
+article#main-col
+{
+    margin-top: 1.5%;
+    float: left;
+    width: 60%;
+    font-family:'Segoe UI';
+}
+
+ul#services li
+{
+    list-style: none;
+    padding: 20px;
+    border: #aed6f1 solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #aed6f1;
+    text-align: center;
+}
+
+@media(max-width: 768px)
+{
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header
+    {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1
+    {
+        margin-top: 40px;
+    }
+
+    #newsletter button, .quote button
+    {
+        display: block;
+        width: 50%;
+        margin: auto;
+        float: center;
+    }
+
+    #newsletter form input[type="email"], .quote input, .quote textarea
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    
+}
